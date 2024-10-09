@@ -1,0 +1,138 @@
+/* Global */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #F8EDED;
+    background-color: #AF8F6F;
+}
+
+/* Header */
+
+header {
+    background: #543310;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 2px 4px #74512D; /* add box shadow */
+}
+
+header img {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+header h1 {
+    margin: 0;
+    font-family:'Times New Roman';
+}
+
+header nav {
+    margin-left: auto;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav li {
+    margin-right: 40px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #F8EDED;
+}
+
+header nav a:hover {
+    color: #666;
+}
+
+.content1 {
+    padding-top: 30px;
+    display: block;
+    width: 90%;
+  }
+
+.content1 h1 {
+    margin-left: 50px;
+    text-align: center;
+}
+
+.content1 p {
+    margin-left: 50px;
+    text-align: justify;
+}
+
+.image2 {
+    width: 100%;
+    text-align: center;
+    margin-right: 20px;
+  }
+  
+.image2 img {
+    display: inline-block; 
+    width: 225px;
+    height: 225px;
+    margin-right: 40px;
+}
+
+main {
+    display: flex;
+  }
+
+  .content2 {
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    width: 60%; /* ubah lebar menjadi 60% */
+  }
+
+.content2 p {
+    text-align: justify;
+}
+
+.vids {
+    width: 40%; /* tambahkan lebar untuk .vids */
+    padding: 60px;
+    margin-right: 30px;
+  }
+
+.content3 {
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    width: 60%; /* ubah lebar menjadi 60% */
+}
+
+.main1 {
+    display: flex;
+  }
+
+.content3 {
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    width: 60%; /* ubah lebar menjadi 60% */
+  }
+
+.content3 p {
+    text-align: justify;
+}
+
+.vids1 {
+    width: 40%; /* tambahkan lebar untuk .vids */
+    padding: 60px;
+    margin-right: 30px;
+  }
